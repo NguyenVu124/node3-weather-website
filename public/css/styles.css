@@ -8,6 +8,15 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 100vh;
+  /* background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(142, 158, 252, 0.5)),
+      to(rgba(28, 62, 255, 0.5))
+    ), */
+  background-image: url("../img/sky.jpg");
+  background-size: 150%;
 }
 
 .main-content {
@@ -15,8 +24,8 @@ body {
 }
 
 footer {
-  color: #888888;
-  border-top: 1px solid #eeeeee;
+  color: #131010;
+  border-top: 1px solid #ece1e1;
   margin-top: 16px;
   padding: 16px 0;
 }
@@ -32,7 +41,7 @@ h1 {
 }
 
 header a {
-  color: #888888;
+  color: #0c0a0a;
   margin-right: 16px;
   text-decoration: none;
 }
@@ -42,13 +51,13 @@ header a {
 }
 
 input {
-  border: 1px solid #cccccc;
+  border-radius: 7px;
   padding: 8px;
 }
 
 button {
   cursor: pointer;
-  border: 1px solid #888888;
+  border-radius: 7px;
   background: #888888;
   color: white;
   padding: 8px;
